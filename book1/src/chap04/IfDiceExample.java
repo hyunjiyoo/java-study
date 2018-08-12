@@ -1,28 +1,28 @@
 package chap04;
 
 public class IfDiceExample {
-	// ÁÖ»çÀ§ÀÇ ¹øÈ£¸¦ »Ì´Â ¿¹Á¦
+	// ì£¼ì‚¬ìœ„ì˜ ë²ˆí˜¸ë¥¼ ë½‘ëŠ” ì˜ˆì œ
 	public static void main(String[] args) {
 		/*
-		 * Math.random()Àº doubleÅ¸ÀÔÀÇ °ªÀ» 0.0~1.0 ±îÁö ³­¼ö¸¦ ¸®ÅÏÇÑ´Ù.
-		 * µû¶ó¼­ intÅ¸ÀÔÀ¸·Î Çüº¯È¯ ½ÃÄÑÁÖ¾î¾ß ÇÏ°í, 
-		 * 1~6 ±îÁöÀÇ ³­¼ö¸¦ ¸®ÅÏÇÏ°Ô ÇÏ·Á¸é, Math.random()*6 À» ÇÏ°í³ª¼­ +1À» ÇØÁÖ¾î¾ßÇÑ´Ù.
-		 * Math.random()Àº 0~5±îÁö¸¦ ¹İÈ¯ÇÏ±â ¶§¹®ÀÌ´Ù.
+		 * Math.random()ì€ doubleíƒ€ì…ì˜ ê°’ì„ 0.0~1.0 ê¹Œì§€ ë‚œìˆ˜ë¥¼ ë¦¬í„´í•œë‹¤.
+		 * ë”°ë¼ì„œ intíƒ€ì…ìœ¼ë¡œ í˜•ë³€í™˜ ì‹œì¼œì£¼ì–´ì•¼ í•˜ê³ , 
+		 * 1~6 ê¹Œì§€ì˜ ë‚œìˆ˜ë¥¼ ë¦¬í„´í•˜ê²Œ í•˜ë ¤ë©´, Math.random()*6 ì„ í•˜ê³ ë‚˜ì„œ +1ì„ í•´ì£¼ì–´ì•¼í•œë‹¤.
+		 * Math.random()ì€ 0~5ê¹Œì§€ë¥¼ ë°˜í™˜í•˜ê¸° ë•Œë¬¸ì´ë‹¤.
 		 */
 		int num = (int)(Math.random()*6) + 1;
 		
 		if (num == 1) {
-			System.out.println("1¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("1ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 2) {
-			System.out.println("2¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("2ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 3) {
-			System.out.println("3¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("3ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 4) {
-			System.out.println("4¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("4ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 5) {
-			System.out.println("5¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("5ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		} else if (num == 6) {
-			System.out.println("6¹øÀÌ ³ª¿Ô½À´Ï´Ù.");
+			System.out.println("6ë²ˆì´ ë‚˜ì™”ìŠµë‹ˆë‹¤.");
 		}
 
 	}

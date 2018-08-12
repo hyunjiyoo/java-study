@@ -3,15 +3,15 @@ package chap03;
 public class CharOperationExample {
 	public static void main(String[] args) {
 		
-		// 'A'´Â 65¶ó´Â À¯´ÏÄÚµå·Î º¯È¯µÇ´Âµ¥ 66À» charÅ¸ÀÔ¿¡ ´ëÀÔÇÏ¸é 'B'°¡ ³ª¿È.
-		// ÀÚ¹Ù´Â ¸®ÅÍ·² °£ÀÇ ¿¬»êÀº Å¸ÀÔ º¯È¯ ¾øÀÌ ÇØ´ç Å¸ÀÔÀ¸·Î °è»ê.
+		// 'A'ëŠ” 65ë¼ëŠ” ìœ ë‹ˆì½”ë“œë¡œ ë³€í™˜ë˜ëŠ”ë° 66ì„ charíƒ€ìž…ì— ëŒ€ìž…í•˜ë©´ 'B'ê°€ ë‚˜ì˜´.
+		// ìžë°”ëŠ” ë¦¬í„°ëŸ´ ê°„ì˜ ì—°ì‚°ì€ íƒ€ìž… ë³€í™˜ ì—†ì´ í•´ë‹¹ íƒ€ìž…ìœ¼ë¡œ ê³„ì‚°.
 		char c1 = 'A' + 1;
 		char c2 = 'A';
 		
-		// c2´Â ¿©±â¼­ intÅ¸ÀÔÀ¸·Î º¯È¯µÇ°í³ª¼­ 1°ú ¿¬»êµÇ±â ¶§¹®¿¡ »êÃâÅ¸ÀÔÀº intÅ¸ÀÔÀÌ µÈ´Ù.
-		// µû¶ó¼­ intÅ¸ÀÔÀ» charÅ¸ÀÔ¿¡ ´ëÀÔÇÏ·Á°í ÇÏ±â¶§¹®¿¡ ÄÄÆÄÀÏ¿¡·¯ ¹ß»ý!!
-		// char c3 = c2 + 1; // ÄÄÆÄÀÏ ¿¡·¯
-		char c3 = (char) (c2 + 1); // °¡´É 
+		// c2ëŠ” ì—¬ê¸°ì„œ intíƒ€ìž…ìœ¼ë¡œ ë³€í™˜ë˜ê³ ë‚˜ì„œ 1ê³¼ ì—°ì‚°ë˜ê¸° ë•Œë¬¸ì— ì‚°ì¶œíƒ€ìž…ì€ intíƒ€ìž…ì´ ëœë‹¤.
+		// ë”°ë¼ì„œ intíƒ€ìž…ì„ charíƒ€ìž…ì— ëŒ€ìž…í•˜ë ¤ê³  í•˜ê¸°ë•Œë¬¸ì— ì»´íŒŒì¼ì—ëŸ¬ ë°œìƒ!!
+		// char c3 = c2 + 1; // ì»´íŒŒì¼ ì—ëŸ¬
+		char c3 = (char) (c2 + 1); // ê°€ëŠ¥ 
 		
 		System.out.println("c1: " + c1);
 		System.out.println("c2: " + c2);

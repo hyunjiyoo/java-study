@@ -1,7 +1,7 @@
 package chap03;
 
 public class Exercise06 {
-	// »ç´Ù¸®²Ã ³ĞÀÌ¸¦ ±¸ÇÏ½Ã¿À.
+	// ì‚¬ë‹¤ë¦¬ê¼´ ë„“ì´ë¥¼ êµ¬í•˜ì‹œì˜¤.
 	public static void main(String[] args) {
 		int lengthTop = 5;
 		int lengthBottom = 10;

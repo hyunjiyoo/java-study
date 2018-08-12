@@ -1,7 +1,7 @@
 package chap03;
 
 public class Exercise05 {
-	// value°¡ 356ÀÏ¶§, 300ÀÌ ³ª¿Ã ¼ö ÀÖµµ·Ï ÇÏ½Ã¿À.
+	// valueê°€ 356ì¼ë•Œ, 300ì´ ë‚˜ì˜¬ ìˆ˜ ìˆë„ë¡ í•˜ì‹œì˜¤.
 	public static void main(String[] args) {
 		int value = 356;
 		System.out.println(value/100 * 100);

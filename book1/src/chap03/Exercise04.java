@@ -6,11 +6,11 @@ public class Exercise04 {
 		int pencils = 534;
 		int students = 30;
 		
-		// ÇĞ»ı ÇÑ ¸íÀÌ °¡Áö´Â ¿¬ÇÊ ¼ö
+		// í•™ìƒ í•œ ëª…ì´ ê°€ì§€ëŠ” ì—°í•„ ìˆ˜
 		int pencilsPerStudent = pencils / students;
 		System.out.println(pencilsPerStudent);
 		
-		// ³²Àº ¿¬ÇÊ ¼ö
+		// ë‚¨ì€ ì—°í•„ ìˆ˜
 		int pencilsLeft = pencils % students;
 		System.out.println(pencilsLeft);
 	}
