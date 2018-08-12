@@ -11,37 +11,32 @@ public class Exercise07 {
         int balance = 0;
         Scanner scanner = new Scanner(System.in);
 
-        Outter: while(run) {
+        while(run) {
             System.out.println("-----------------------------");
             System.out.println("1.예금 | 2.출금 | 3.조회 | 4.종료");
             System.out.println("-----------------------------");
             System.out.print("선택: ");
 
-            String num = scanner.next();
-            int money = 0;
+            // 메뉴 num 키보드로부터 받아온다.
+            int num = scanner.nextInt();
 
             switch (num) {
-                case "1":
+                case 1:
                     System.out.print("예금액: ");
-                    balance = scanner.nextInt();
-                    money += balance;
-                    //System.out.println("예금액: " + money);
+                    balance += scanner.nextInt();
                     break;
-                case "2":
+                case 2:
                     System.out.print("출금액: ");
-                    balance = scanner.nextInt();
-                    money -= balance;
-
-                    //System.out.println("출금액: " + money);
+                    balance -= scanner.nextInt();
                     break;
-                case "3":
-                    System.out.println("조회: " + money);
+                case 3:
+                    System.out.println("조회: " + balance);
                     break;
-                case "4":
-                    System.out.println("프로그램 종료!!");
-                    break Outter;
+                case 4:
+                    run = false;
+                    break;
             }
-
         }
+        System.out.println("프로그램 종료!!");
     }
 }
