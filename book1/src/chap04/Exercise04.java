@@ -6,19 +6,16 @@ while문과 Math.random() 메소드 이용해서 두 개의 주사위를 던졌�
  */
 public class Exercise04 {
     public static void main(String[] args) {
-        int num1 = (int)(Math.random()*6) + 1;
-        int num2 = (int)(Math.random()*6) + 1;
-        System.out.println("(" + num1 + ", " + num2 + ")");
-
-        while ((num1+num2) != 5) {
-            num1 = (int)(Math.random()*6) + 1;
-            num2 = (int)(Math.random()*6) + 1;
+        while (true) {
+            int num1 = (int)(Math.random()*6) + 1;
+            int num2 = (int)(Math.random()*6) + 1;
+            int sum = num1 + num2;
             System.out.println("(" + num1 + ", " + num2 + ")");
 
-            if ((num1+num2) == 5) {
+            // 눈의 합이 5일때, break;
+            if (sum == 5) {
                 break;
             }
         }
     }
-
 }
