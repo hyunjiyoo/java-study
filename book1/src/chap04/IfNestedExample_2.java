@@ -6,7 +6,8 @@ public class IfNestedExample_2 {
 		int score = (int)(Math.random()*20) + 81;
 		System.out.println(score);
 		
-		String grade; // 점수 담을 변수 생성.
+		// 점수 담을 변수 생성.
+		String grade; 
 		
 		if (score >= 90) {
 			if (score >= 95) {
