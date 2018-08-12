@@ -1,26 +1,26 @@
 package chap04;
 
 public class IfNestedExample {
-	// 81<=...<=100 »çÀÌ¿¡ ¼ÓÇÏ´Â Á¡¼ö¸¦ »Ì¾Æ³»¾î A+,A,B+,B¸¦ Ãâ·ÂÇÑ´Ù.
+	// 81<=...<=100 ì‚¬ì´ì— ì†í•˜ëŠ” ì ìˆ˜ë¥¼ ë½‘ì•„ë‚´ì–´ A+,A,B+,Bë¥¼ ì¶œë ¥í•œë‹¤.
 	public static void main(String[] args) {
 		/* 
-		 * ¸ÕÀú 0~19 »çÀÌÀÇ ³­¼ö¸¦ »ý¼ºÇØ¼­ 81À» ´õÇØÁØ´Ù.
-		 * ±×·¯¸é (0+81)~(19+81)ÀÎ 81~100»çÀÌÀÇ ³­¼ö°¡ »ý¼ºµÈ´Ù.
+		 * ë¨¼ì € 0~19 ì‚¬ì´ì˜ ë‚œìˆ˜ë¥¼ ìƒì„±í•´ì„œ 81ì„ ë”í•´ì¤€ë‹¤.
+		 * ê·¸ëŸ¬ë©´ (0+81)~(19+81)ì¸ 81~100ì‚¬ì´ì˜ ë‚œìˆ˜ê°€ ìƒì„±ëœë‹¤.
 		 */
 		int score = (int)(Math.random()*20) + 81;
 		System.out.println(score);
 		
 		if (score >= 90) {
 			if (score >= 95) {
-				System.out.println("A+ÀÔ´Ï´Ù.");
+				System.out.println("A+ìž…ë‹ˆë‹¤.");
 			} else {
-				System.out.println("A ÀÔ´Ï´Ù.");
+				System.out.println("A ìž…ë‹ˆë‹¤.");
 			}
 		} else {
 			if (score >= 85) {
-				System.out.println("B+ ÀÔ´Ï´Ù.");
+				System.out.println("B+ ìž…ë‹ˆë‹¤.");
 			} else {
-				System.out.println("B ÀÔ´Ï´Ù.");
+				System.out.println("B ìž…ë‹ˆë‹¤.");
 			}
 		} 
 	}
