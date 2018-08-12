@@ -6,7 +6,7 @@ public class IfNestedExample_2 {
 		int score = (int)(Math.random()*20) + 81;
 		System.out.println(score);
 		
-		// Á¡¼ö ´ãÀ» º¯¼ö »ý¼º.
+		// ì„±ì ë‹´ì„ ë³€ìˆ˜ ìƒì„±.
 		String grade; 
 		
 		if (score >= 90) {
