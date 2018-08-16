@@ -3,19 +3,19 @@ package chap06;
 public class Printer {
 
     // 오버로딩!!
-    void println(int value) {
+    static void println(int value) {
         System.out.println(value);
     }
 
-    void println(boolean value) {
+    static void println(boolean value) {
         System.out.println(value);
     }
 
-    void println(double value) {
+    static void println(double value) {
         System.out.println(value);
     }
 
-    void println(String value) {
+    static void println(String value) {
         System.out.println(value);
     }
 }
