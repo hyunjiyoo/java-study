@@ -2,7 +2,7 @@ package chap07;
 
 public class InstanceofExample {
     public static void method1(Parent parent) {
-        // parent 객체를 Child 타입으로 변환이 가능한지 확인
+        // Parent 객체를 Child 타입으로 변환이 가능한지 확인
         if (parent instanceof Child) {
             Child child = (Child) parent;
             System.out.println("method1 - Child로 변환 성공");
