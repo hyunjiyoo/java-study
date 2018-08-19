@@ -7,6 +7,15 @@ public class Car {
     Tire backLeftTire = new HankookTire();
     Tire backRightTire = new HankookTire();
 
+    /* 인터페이스 배열
+    Tire[] tires = {
+        new HankookTire();
+        new HankookTire();
+        new HankookTire();
+        new HankookTire();
+    };
+     */
+
     // 인터페이스에서 설명된 roll() 메소드 호출
     void run() {
         frontLeftTire.roll();
@@ -14,4 +23,12 @@ public class Car {
         backLeftTire.roll();
         backRightTire.roll();
     }
+
+    /*  roll() 메서드 배열의 인덱스로 호출.
+    void run() {
+        for(Tire tire : tires) {
+            tire.roll();
+        }
+    }
+     */
 }
